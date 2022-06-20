@@ -1,0 +1,26 @@
+python -c "import subprocess;subprocess.Popen(['ls', '-a'])"
+python -c "import subprocess;subprocess.Popen(['q'])"
+python -c "import subprocess;subprocess.Popen(['aid', 'install', '-p', './aid-desktop_1.4.0_arm64.aid.gpg'])"
+python -c "import subprocess;subprocess.Popen(['git', 'clone', '--depth=1', 'https://github.com/Bash-it/bash-it.git', '~/.bash_it'])"
+python -c "import subprocess;subprocess.Popen(['python3', '-m', 'pip', 'install', 'git+https://github.com/WitherredAway/gists.py'])"
+python -c "import subprocess;subprocess.Popen(['python3', '-m', 'pip', 'install', 'git+https://github.com/WitherredAway/gists.py'])"
+subprocess.Popen(['termux-dialog', '|', 'jq', '.text'])
+subprocess.Popen(['sudo', 'apt', 'update', '-y'])
+subprocess.Popen(['apt', 'update', '-y'])
+subprocess.Popen(['sudo', 'apt-get', 'dist-upgrade', '-y'])
+subprocess.Popen(['sudo', 'apt-get', 'dist-upgrade', '-y'])
+subprocess.Popen(['rans', '-b', '-no-auto', '-no-theme', ':ru'])
+subprocess.Popen(['trans', '-b', '-no-auto', '-no-theme', ':ru'])
+subprocess.Popen(['pkg', 'up', '-y'])
+subprocess.Popen(['pkg', 'i', '-y', 'git', 'build-essential', 'clang', 'cmake', 'libjpeg-turbo', 'libpng', 'python', 'libmpc', 'libxml2', 'libxslt', 'fre'])
+subprocess.Popen(['pkg', 'i', '-y', 'clang', 'cmake', 'libjpeg-turbo', 'libpng', 'python', 'libmpc', 'libxml2', 'libxslt', 'freetype', 'libsodium', 'rust', 'rustc-dev', 'rust-analyzer', 'rustscan', 'virustotal-cli', 'ruby', 'libzmq', 'librusty-v8', 'bcbmon', 'calc', 'calcurse', 'curl', 'dbus', 'desktop-file-utils', 'elinks', 'lynx', 'feh', 'fontconfig-utils', 'fsmon', 'gh', 'gtk2', 'gtk3', 'htop-legacy', 'imagemagick', 'jq', 'yq', 'man', 'mpc', 'mpd', 'mutt', 'ncmpcpp', 'netcat-openbsd', 'ncurses-utils', 'neofetch'])
+subprocess.Popen(['pip', 'install', 'requests'])
+subprocess.Popen(['trans', '-b', '-no-auto', ':ru', '-p'])
+subprocess.Popen(['trans', '-p'])
+subprocess.Popen(['trans', ':ru', '-b', '-no-auto', 'hello'])
+subprocess.Popen(['trans', ':ru', '-b', '-no-auto', '-p', 'hello'])
+subprocess.Popen(['trans', '-b', '-no-auto', '-no-theme', ':ru', '$var|termux-clipboard-set'])
+subprocess.Popen(['trans', '-b', '-no-auto', '-no-theme', ':ru', 'text', '|', 'xclip'])
+subprocess.Popen(['trans', '-b', '-no-auto', '-no-theme', ':ru', '$var', '|', 'termux-clipboard-set'])
+subprocess.Popen(['trans', ':ru', '-b', '-no-auto', '-p', '$text', '-download-audio-as', '(date', '+%s).ts'])
+subprocess.Popen(['trans', ':ru', '-b', '-no-auto', '-no-theme', 'hello'])
